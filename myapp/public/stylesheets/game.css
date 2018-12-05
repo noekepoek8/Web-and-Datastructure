@@ -98,10 +98,14 @@ body {
                 background-color: #cccccc;
             }
 
-            .rulesExplanation{
-                width: 95%;
-                height: 50%;
-                margin-top: 5%;
-                margin-left: 5%;
-                background-color: #000000;
-            }
+.rulesExplanation{
+    width: 95%;
+    height: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: #000000;
+}
+
+#logoimg{
+        
+}
