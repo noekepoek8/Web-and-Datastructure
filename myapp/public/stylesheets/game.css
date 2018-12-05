@@ -12,51 +12,63 @@ body {
     margin: auto;
 }
 
-.logoheader{
-    box-sizing: border-box;
-    width: 100%;
-    height: 20%;
-    border-bottom: 1px solid grey;
-}
+    .logoheader{
+        box-sizing: border-box;
+        width: 100%;
+        height: 20%;
+        border-bottom: 1px solid grey;
+        background-image: url(/images/logo.jpg);
+    }
 
-.flexer{
-    display: flex;
-}
+        .flexer{
+            display: flex;
+        }
 
-.notHeader{
-    width: 100%;
-    height: 80%;
-}
+    .notHeader{
+        width: 100%;
+        height: 80%;
+    }
  
-.game{
-    box-sizing: border-box;
-    width: 52.5%;
-    height: 100%;
-    margin-left: 5%;
-    margin-right: 2.5%;
-    float: left;
-    background-color: #aa7409;
-    border: 12px solid #795c06;
-    border-radius: 7px;
-}
+        .game{
+            box-sizing: border-box;
+            width: 52.5%;
+            height: 100%;
+            margin-left: 5%;
+            margin-right: 2.5%;
+            float: left;
+            background-color: #aa7409;
+            border: 12px solid #795c06;
+            border-radius: 7px;
+        }
+            
+            .history{
+                width: 100%;
+                height: 85%;
+                border-bottom: 7px solid #795c06;
+            }
 
-.column{
-    width: 35%;
-    height: 100%;
-    float: right;
-    margin-right: 5%;
-}
+            .input{
+                width: 100%;
+                height: 15%;
+            }
 
-.hotkeyExplanation{
-    width: 100%;
-    height: 40%;
-    background-color: #cccccc;
-}
+        .column{
+            width: 35%;
+            height: 100%;
+            float: right;
+            margin-right: 5%;
+        }
 
-.rulesExplanation{
-    width: 95%;
-    height: 50%;
-    margin-top: 5%;
-    margin-left: 5%;
-    background-color: #000000;
-}
+            .hotkeyExplanation{
+                width: 100%;
+                height: 40%;
+                background-color: #cccccc;
+            }
+
+            .rulesExplanation{
+                width: 95%;
+                height: 50%;
+                margin-top: 5%;
+                margin-left: 5%;
+                background-color: #000000;
+            }
