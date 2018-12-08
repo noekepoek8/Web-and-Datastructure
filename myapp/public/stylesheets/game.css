@@ -52,6 +52,21 @@ body {
                 border: 7px solid #795c06;
             }
 
+            .answerHide{
+                box-sizing: border-box;
+                background-color: #aa7409;
+                border: 7px solid #795c06;
+            }
+
+                .answerPeg{
+                    width: 17%;
+                    height: 100%;
+                    border: 1px solid #795c06;;
+                    border-radius: 50%;
+                    margin: 0 4%;
+                    display: none;
+                }
+
             .history{
                 width: 100%;
                 height: 65%;
@@ -60,6 +75,7 @@ body {
             }
 
                 .row{
+                    box-sizing: border-box;
                     margin: 0;
                     width: 100%;
                     height: 12.5%;
@@ -75,7 +91,7 @@ body {
                         .peg{
                             width: 17%;
                             height: 100%;
-                            border: 1px solid red;
+                            border: 1px solid #795c06;;
                             border-radius: 50%;
                             margin: 0 4%;
                         }
@@ -92,7 +108,7 @@ body {
                             box-sizing: border-box;
                             width: 18%;
                             height: 45%;
-                            border: 1px solid red;
+                            border: 1px solid #795c06;;
                             border-radius: 50%;
                             margin-top: 2.5%;
                             margin-left: 21%;
@@ -101,7 +117,6 @@ body {
             .input{
                 width: 100%;
                 height: 20%;
-                
             }
             
                 .inputContainer{
@@ -118,7 +133,7 @@ body {
                         .inputPeg{
                             width: 17%;
                             height: 100%;
-                            border: 1px solid red;
+                            border: 1px solid #795c06;;
                             border-radius: 50%;
                             margin: 0 4%;
                         }
@@ -151,36 +166,47 @@ body {
                         
                         .orange {
                             border: 1px solid orange;
+                            background-color: orange;
                         }
 
                         .yellow {
                             border: 1px solid yellow;
+                            background-color: yellow;
                         }
 
                         .green {
                             border: 1px solid greenyellow;
+                            background-color: greenyellow;
                         }
 
                         .blue {
                             border: 1px solid blue;
+                            background-color: blue;
                         }
 
                         .purple {
                             border: 1px solid purple;
+                            background-color: purple;
                         }
 
                         .pink {
                             border: 1px solid pink;
+                            background-color: pink;
                         }
 
-                .btnContainer{
+                .fake {
+                    opacity: 0.75;
+                    color: grey;
+                }
+
+                .btnContainer {
                     width: 25%;
                     height: 100%;
                     float: right;
                     border-left: 7px solid #795c06;
                 }
                     
-                    .submitBtn{
+                    .submitBtn {
                         width: 80%;
                         height: 90%;
                         padding-top: 7%;
@@ -192,7 +218,7 @@ body {
                         box-shadow: 2px 2px 4px grey;
                     }
                         
-                        .text{
+                        .text {
                             margin: 0% auto;
                         }
 
@@ -216,7 +242,7 @@ body {
     margin-left: 5%;
     background-color: #000000;
 }
-
+/* 
 #logoimg{
         
-}
+} */
