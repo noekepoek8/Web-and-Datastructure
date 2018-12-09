@@ -8,11 +8,13 @@ app.get('/', function(req, res) {
     res.sendFile('splash.html', {root: "./public"});
 });
 
-app.get('/game/:id', function(req, res) {
-    res.send('you requested to see a profile with the id of ' + req.params.id);
+app.get('/game', function(req, res) {
+    res.sendFile('game.html', {root: "./public"});
 });
 
 app.use(express.static(__dirname + "/public"));
 http.createServer(app).listen(port);
+
+
 
 

@@ -32,20 +32,89 @@ body {
         width: 100%;
         height: 80%;
     }
+        /* Splash */
+        .codeOutput {
+            box-sizing: border-box;
+            width: 32.5%;
+            height: 7%;
+            margin-top: 100px;
+            margin-left: 18.75%;
+            position: fixed;
+            background-color: #aa7409;
+            border: 7px solid #795c06;
+            border-radius: 7px;
+            box-shadow: 5px 5px 10px grey;
+        }
 
         #codeStart {
             box-sizing: border-box;
-            width: 52.5%;
-            height: 30%;
-            margin-top: 100px;
-            margin-left: 5%;
-            margin-right: 2.5%;
-            float: left;
+            width: 40%;
+            height: 25%;
+            margin-top: 275px;
+            margin-left: 14.75%;
+            position: fixed;
             background-color: #aa7409;
             border: 12px solid #795c06;
             border-radius: 7px;
             box-shadow: 5px 5px 10px grey;
         }
+           
+            .inputStart {
+                width: 100%;
+                height: 100%;
+            }
+
+        .sndpStart {
+            box-sizing: border-box;
+            width: 32.5%;
+            height: 15%;
+            margin-top: 700px;
+            margin-left: 18.75%;
+            position: fixed;
+            background-color: #aa7409;
+            border: 10px solid #795c06;
+            border-radius: 7px;
+            box-shadow: 5px 5px 10px grey;
+        }
+
+            .inputCode {
+                font-size: 200%;
+                margin-left: 10px;
+            }
+
+            input {
+                background-color: #b49a64;
+                font-size: 100%;
+                width: 50%;
+                height: 20%;
+                margin-top: 80px;
+            }
+
+            .btnCodeBox {
+                padding: 0;
+                height: 70%;
+                float: right;
+                margin-left: 30px;
+                margin-top: -80px;
+            }
+                
+                .codeBtn {
+                    width: 80%;
+                    height: 90%;
+                    background-color: #cccccc;
+                    text-align: center;
+                    line-height: 170%;
+                    box-shadow: 2px 2px 4px grey;
+                }
+                    
+                    .textBtn {
+                        margin: 0;
+                        font-size: 500%; 
+                        line-height: 150%;
+                        margin-right: 30px; 
+                    }
+
+        /* game */
  
         .game {
             box-sizing: border-box;
@@ -132,11 +201,6 @@ body {
                             margin-left: 21%;
                         }
 
-            .inputStart {
-                width: 100%;
-                height: 100%;
-            }
-
             .input {
                 width: 100%;
                 height: 20%;
@@ -222,7 +286,7 @@ body {
                     color: grey;
                 }
 
-                .btnContainer {
+                .btnContainer ::after {
                     width: 25%;
                     height: 100%;
                     float: right;
@@ -230,12 +294,12 @@ body {
                 }
                     
                     .submitBtn {
-                        width: 80%;
+                        width: 100%;
                         height: 90%;
                         padding-top: 7%;
                         padding-bottom: -7px;
                         background-color: #cccccc;
-                        margin: auto;
+                        margin-top: 6%;
                         text-align: center;
                         line-height: 200%;
                         box-shadow: 2px 2px 4px grey;
@@ -243,6 +307,8 @@ body {
                         
                         .text {
                             margin: 0% auto;
+                            font-size: 600%; 
+                            line-height: 250%;
                         }
 
         .column{
