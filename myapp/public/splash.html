@@ -3,6 +3,7 @@
     <head>
         <title>Mastermind</title>
         <link rel="stylesheet" href="stylesheets/game.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
 
     <body>
@@ -12,14 +13,16 @@
             </section>
 
             <section class="notHeader margin flexer">
+                <div class="codeOutput">
+                </div>
                 <div id="codeStart">
                     <div class="inputStart flexer">
                         <div class="inputContainer flexer">
                             <div class="inputBox flexer">
-                                <div id="p1" class="inputPeg flex"></div>
-                                <div id="p2" class="inputPeg flex"></div>
-                                <div id="p3" class="inputPeg flex"></div>
-                                <div id="p4" class="inputPeg flex"></div>
+                                <div id="cp1" class="inputPeg flex"></div>
+                                <div id="cp2" class="inputPeg flex"></div>
+                                <div id="cp3" class="inputPeg flex"></div>
+                                <div id="cp4" class="inputPeg flex"></div>
                             </div>
                             <div class="selectorBox flexer">
                                 <div class="selectionBtn red"></div>
@@ -38,12 +41,19 @@
                         </div>
                     </div>
                 </div>
-                <aside>
-                    <div id="2ndPlayerStart"> </div>
-                    <div id="highscore"> </div>
-                </aside>
+                <div class="sndpStart"> 
+                    <form class="inputCode">
+                            Game code: 
+                        <input type="text" class="code">
+                    </form>
+                    <div class="btnCodeBox fake flex">
+                        <div class="codeBtn fake">
+                            <h1 class="textBtn fake">GO</h1>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
-
+        <script type="text/javascript" src="javascripts/splash.js"></script>
     </body>
 </html>
