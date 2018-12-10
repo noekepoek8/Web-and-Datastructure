@@ -66,5 +66,10 @@ $(document).ready(function() {
     $('.submitBtn').click(function() {
         $('.fake').removeClass('fake')
         $('#codeStart').hide();
+
+        var a1 = $('#cp1').css('background-color'),
+        url = 'http://path_to_your_html_files/next.html?name=' + encodeURIComponent(a1);
+
+    document.location.href = url;
     });
 });;
